@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import string
-
+nltk.download('punkt')
 def preprocess_text(text):
     global word_list 
     word_list = []  
