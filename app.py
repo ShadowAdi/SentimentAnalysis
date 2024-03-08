@@ -8,6 +8,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import string
 nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')
 nltk.download('stopwords')
 def preprocess_text(text):
     global word_list 
